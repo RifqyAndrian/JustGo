@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Navbar Responsive</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="jquery/jquery-3.6.0.min.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+            href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&display=swap"
+            rel="stylesheet" />
+</head>
+
+<body class="bg-body">
+<div class=".container">
+    <div class="">
+        <!-- Navbar -->
+        <nav>
+            <div class="container-flex">
+                <div class="brand">
+                    <a href="">
+                        <img src="img/justgologo.png" alt="Forest" class="w-90" />
+                    </a>
+                </div>
+                <div class="burger">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                </div>
+                <div class="bg-sidebar"></div>
+                <ul class="sidebar">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="screenshot.html">Screenshot</a></li>
+                    <li><a href="vacation.html">Vacation</a></li>
+                    <li><a href="tips.html">Tips and Trick</a></li>
+                    <li><a href="joinUs.html" class="btn bg-green">Join Us</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+
+</div>
+<div class="mt-4 center" >
+    <h2>Vacation Recommendation</h2>
+</div>
+<div class="container">
+    <div class="row p-4 jcenter">
+        <div class="col-lg-4 col-sm-12 mb-2" onclick="openModal('Gunung Bromo', 'Gunung Bromo adalah salah satu destinasi wisata alam yang menakjubkan di Jawa Timur, Indonesia. Gunung ini terkenal dengan pemandangan matahari terbit yang spektakuler dan lanskapnya yang dramatis. Gunung Bromo terletak di Taman Nasional Bromo Tengger Semeru, yang juga merupakan rumah bagi Gunung Semeru, gunung tertinggi di Pulau Jawa.', 'img/vacation/bromo.jpg')">
+            <div class="card bg-green cd">
+                <img src="img/vacation/bromo.jpg" class="card-img" alt="bromo">
+                <div class="card-body text-white center">
+                    <h3 class="mb-2">Gunung Bromo</h3>
+                    <p>Mendaki ke puncak Bromo pada pagi hari untuk menyaksikan matahari terbit yang memukau dan menyaksikan kabut mengisi kawah gunung.</p>
+                    <p><small>[klik untuk melihat]</small></p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-sm-12 mb-2" onclick="openModal('Candi Borobudur', 'Candi Borobudur adalah sebuah kompleks candi Buddha terbesar di dunia yang terletak di Magelang, Jawa Tengah, Indonesia. Candi ini merupakan salah satu situs warisan dunia UNESCO dan menjadi daya tarik wisata utama di Indonesia.', 'img/vacation/candi-borobudur.jpg')">
+            <div class="card bg-green cd">
+                <img src="img/vacation/candi-borobudur.jpg" class="card-img" alt="borobudur">
+                <div class="card-body text-white center">
+                    <h3 class="mb-1">Candi Borobudur</h3>
+                    <p>Mengagumi arsitektur candi yang indah, menjelajahi relief-relief Budha, menyaksikan matahari terbit atau terbenam dari atas candi, belajar sejarah dan budaya di Museum Borobudur</p>
+                    <p><small>[klik untuk melihat]</small></p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-sm-12 mb-2" onclick="openModal('Pulau Dewata Bali', 'Bali adalah sebuah pulau yang terletak di Indonesia bagian tengah dan merupakan salah satu destinasi wisata terkenal di dunia. Pulau ini terkenal dengan keindahan alamnya, budaya yang kaya, pantai-pantai yang menakjubkan, dan tempat wisata yang menarik.', 'img/vacation/pulau-dewata.jpg')">
+            <div class="card bg-green cd">
+                <img src="img/vacation/pulau-dewata.jpg" class="card-img" alt="bali">
+                <div class="card-body center text-white">
+                    <h3 class="mb-1">Pulau Dewata Bali</h3>
+                    <p>Bersantai di pantai seperti Kuta, Seminyak, atau Nusa Dua, menikmati pemandangan sawah terasering di Ubud, mengunjungi Pura Besakih dan Tanah Lot, menyaksikan pertunjukan tari tradisional</p>
+                    <p><small>[klik untuk melihat]</small></p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-sm-12 mb-2" onclick="openModal('Candi Prambanan', 'Candi Prambanan adalah kompleks candi Hindu yang mempesona di Jawa Tengah, Indonesia. Dibangun pada abad ke-9, candi ini merupakan salah satu contoh arsitektur Hindu terbesar di Asia Tenggara. Candi Prambanan terdiri dari tiga candi utama yang menjulang tinggi, yaitu Candi Siwa, Candi Wisnu, dan Candi Brahma. Keindahan arsitektur dan detail ukiran relief di setiap candi membuat Prambanan menjadi daya tarik yang tak terlupakan.', 'img/vacation/candi-prambanan.jpg')">
+            <div class="card bg-green cd">
+                <img src="img/vacation/candi-prambanan.jpg" class="card-img" alt="prambanan">
+                <div class="card-body text-white center">
+                    <h3 class="mb-1">Candi Prambanan</h3>
+                    <p>Menjelajahi area sekitar candi dengan berjalan kaki atau menggunakan sepeda untuk menikmati pemandangan pedesaan yang asri.</p>
+                    <p><small>[klik untuk melihat]</small></p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-sm-12 mb-2" onclick="openModal('Gunung Semeru', 'Gunung Semeru adalah gunung berapi tertinggi di pulau Jawa dan merupakan salah satu dari Gunung Api Purba (GAP) di Indonesia. Gunung ini terletak di Taman Nasional Bromo Tengger Semeru, Jawa Timur.', 'img/vacation/semeru.jpg')">
+            <div class="card bg-green cd">
+                <img src="img/vacation/semeru.jpg" class="card-img" alt="Hawaii">
+                <div class="card-body center text-white">
+                    <h3 class="mb-1">Gunung Semeru</h3>
+                    <p>Pendakian gunung, menikmati pemandangan indah dari puncak Mahameru, menjelajahi lautan pasir dan kawah Bromo, camping di Gunung Ayek-Ayek</p>
+                    <p><small>[klik untuk melihat]</small></p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-sm-12 mb-2" onclick="openModal('Pulau Komodo', 'Pulau Komodo terletak di Kepulauan Nusa Tenggara, Indonesia, dan menjadi rumah bagi hewan langka, yaitu komodo, kadal terbesar di dunia. Pulau Komodo adalah salah satu tujuan wisata alam yang paling menarik di Indonesia.', 'img/vacation/pulau-komodo.jpg')">
+            <div class="card bg-green cd">
+                <img src="img/vacation/pulau-komodo.jpg" class="card-img" alt="Hawaii">
+                <div class="card-body center text-white">
+                    <h3 class="mb-1">Pulau Komodo</h3>
+                    <p>Menyaksikan komodo di habitat aslinya dengan melakukan tur ke Taman Nasional Komodo. Anda dapat mengunjungi pulau-pulau seperti Pulau Komodo, Pulau Rinca, dan Pulau Padar untuk melihat komodo dalam lingkungan alaminya.</p>
+                    <p><small>[klik untuk melihat]</small></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="p-4">
+    <div class="modal" id="myModal">
+        <div class="modal-content bg-green">
+            <span class="close-btn" onclick="closeModal()">&times;</span>
+            <img id="modalImage" src="" alt="">
+            <h2 id="modalTitle"></h2>
+            <p id="modalDescription"></p>
+        </div>
+    </div>
+</div>
+
+
+<script>
+    function openModal(title, description, image, duration, price) {
+        var modal = document.getElementById("myModal");
+        var modalImage = document.getElementById("modalImage");
+        var modalTitle = document.getElementById("modalTitle");
+        var modalDescription = document.getElementById("modalDescription");
+
+        modalImage.src = image;
+        modalTitle.textContent = title;
+        modalDescription.textContent = description;
+
+        modal.style.display = "flex";
+    }
+
+    function closeModal() {
+        var modal = document.getElementById("myModal");
+        modal.style.display = "none";
+    }
+</script>
+
+
+</div>
+<footer>
+    <div class="container">
+        <div class="brand">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-6"><a href="">
+                    <img src="img/justgologo.png" alt="Logo" class="w-40" />
+                </a></div>
+                <div class="col-lg-6 col-md-6 col-sm-6 end"><h4>JustGO 2023</h4></div>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="js/script.js"></script>
+</body>
+
+</html>

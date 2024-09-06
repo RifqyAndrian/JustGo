@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Navbar Responsive</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <script src="jquery/jquery-3.6.0.min.js"></script>
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+
+<body class="bg-body">
+  <div class=".container">
+    <div class="">
+      <!-- Navbar -->
+      <nav>
+        <div class="container-flex">
+          <div class="brand">
+            <a href="">
+              <img src="img/justgologo.png" alt="Forest" class="logo" />
+            </a>
+          </div>
+          <div class="burger">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+          </div>
+          <div class="bg-sidebar"></div>
+          <ul class="sidebar">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="screenshot.html">Screenshot</a></li>
+            <li><a href="vacation.html">Vacation</a></li>
+            <li><a href="tips.html">Tips and Trick</a></li>
+            <li><a href="joinUs.html" class="btn bg-green">Join Us</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+    <!-- BG -->
+    <div class="banner" style="background-image: url('img/bg.png');">
+    </div>
+  </div>
+  <div class="mt-4 center">
+    <h2>Vacation Recommendation</h2>
+  </div>
+  <div class="container cindex" >
+
+    <div class="wrapper">
+      <i id="left" class="fa fa-angle-left"></i>
+      <ul class="carousel">
+        <li class="card bg-green border-r">
+          <img class="card-img" src="img/vacation/bromo.jpg" alt="Card Image">
+          <div class="card-body center">
+            <h2 class="text-white">Gunung Bromo</h2>
+          </div>
+        </li>
+        <li class="card bg-green border-r">
+          <img class="card-img" src="img/vacation/candi-borobudur.jpg" alt="Card Image">
+          <div class="card-body center">
+          <h2 class="text-white">Candi Borobudur</h2>
+          </div>
+        </li>
+        <li class="card bg-green border-r">
+          <img class="card-img" src="img/vacation/pulau-dewata.jpg" alt="Card Image">
+          <div class="card-body center">
+          <h2 class="text-white">Pulau Dewata Bali</h2>
+          </div>
+        </li>
+        <li class="card bg-green border-r">
+          <img class="card-img" src="img/vacation/candi-prambanan.jpg" alt="Card Image">
+          <div class="card-body center">
+            <h2 class="text-white">Candi Prambanan</h2>
+          </div>
+        </li>
+        <li class="card bg-green border-r">
+          <img class="card-img" src="img/vacation/semeru.jpg" alt="Card Image">
+          <div class="card-body center">
+            <h2 class="text-white">Gunung Semeru</h2>
+          </div>
+        </li>
+        <li class="card bg-green border-r">
+          <img class="card-img" src="img/vacation/pulau-komodo.jpg" alt="Card Image">
+          <div class="card-body center">
+            <h2 class="text-white">Pulau Komodo</h2>
+          </div>
+        </li>
+      </ul>
+      <i id="right" class="fa fa-angle-right"></i>
+    </div>
+    </div>
+
+  </div>
+
+  <!-- Review -->
+  <div class="mb-3">
+    <h2 class="center">Review</h2>
+  </div>
+  <div class="container mb-4">
+    <div class="row">
+      <div class="col mb-2">
+        <div class="card bg-green border-r">
+          <h5 class="card-header bg-dark-green text-white">John</h5>
+          <div class="card-body">
+            <div class="rating">
+              <span class="star"></span>
+              <span class="star"></span>
+              <span class="star"></span>
+              <span class="star"></span>
+              <span class="star"></span>
+            </div>
+            <p class="card-text text-white">"Saya sangat senang dengan liburan yang disediakan oleh perusahaan ini. Destinasi yang kami kunjungi luar biasa dan layanan yang diberikan sangat profesional. Segala sesuatunya diatur dengan baik dan kami memiliki pengalaman liburan yang tak terlupakan."</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card bg-green border-r">
+          <h5 class="card-header bg-dark-green text-white">Adam</h5>
+          <div class="card-body">
+            <div class="rating">
+              <span class="star"></span>
+              <span class="star"></span>
+              <span class="star"></span>
+              <span class="star"></span>
+              <span class="star"></span>
+            </div>
+            <p class="card-text" >"Saya ingin berterima kasih kepada tim perusahaan liburan ini atas perjalanan yang luar biasa. Destinasi yang kami kunjungi indah dan kami diberikan pengalaman liburan yang sangat menyenangkan. Saya pasti akan merekomendasikan perusahaan ini kepada teman dan keluarga."</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <footer>
+    <div class="container">
+      <div class="brand">
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-sm-6"><a href="">
+            <img src="img/justgologo.png" alt="Logo" class="w-40" />
+          </a></div>
+          <div class="col-lg-6 col-md-6 col-sm-6 end"><h4>JustGO 2023</h4></div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
